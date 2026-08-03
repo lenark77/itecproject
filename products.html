@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Products and example security solutions from Volk Security Systems.">
+  <title>Volk Security Systems | Products</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <script>
+    document.documentElement.setAttribute("data-theme", localStorage.getItem("theme") || "light");
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .product-card h2 {
+      font-size: 1.45rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="header-placeholder"></div>
+
+  <main>
+    <section class="page-banner">
+      <div class="container">
+        <h1>Products and Example Solutions</h1>
+        <p>Search the cards by product type, category or description.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filter-box">
+          <label for="product-filter">Search products</label>
+          <input id="product-filter" type="search" placeholder="Try alarm, camera, access or smart home">
+        </div>
+
+        <p id="product-no-results" class="no-results">No matching products were found.</p>
+
+        <div class="card-grid two">
+          <article class="card product-card" data-title="IQ Panel Alarm Package" data-category="Alarm" data-description="Qolsys alarm panel PowerG sensors mobile app monitoring">
+            <img src="assets/product-alarm.svg" alt="Illustration of an alarm system">
+            <span class="category">Alarm</span>
+            <h2>IQ Panel Alarm Package</h2>
+            <p>A touchscreen alarm panel with compatible door, motion and glass-break sensors.</p>
+            <a class="button button-primary" href="contact.html?subject=Alarm System">Ask About This System</a>
+          </article>
+
+          <article class="card product-card" data-title="Camera and NVR Package" data-category="Video" data-description="Hikvision UNV cameras recorder remote viewing surveillance">
+            <img src="assets/product-camera.svg" alt="Illustration of a security camera">
+            <span class="category">Video</span>
+            <h2>Camera and NVR Package</h2>
+            <p>A group of wired cameras connected to a recorder for local storage and remote viewing.</p>
+            <a class="button button-primary" href="contact.html?subject=Camera System">Ask About Cameras</a>
+          </article>
+
+          <article class="card product-card" data-title="Door Access Package" data-category="Access Control" data-description="card fob mobile entry door access business">
+            <img src="assets/product-access.svg" alt="Illustration of an access-control door">
+            <span class="category">Access Control</span>
+            <h2>Door Access Package</h2>
+            <p>A basic access-control setup for managing employees, door schedules and entry records.</p>
+            <a class="button button-primary" href="contact.html?subject=Access Control">Ask About Access</a>
+          </article>
+
+          <article class="card product-card" data-title="Connected Smart Home Package" data-category="Automation" data-description="smart lock thermostat garage lights alarm app">
+            <img src="assets/product-smart-home.svg" alt="Illustration of smart-home devices">
+            <span class="category">Automation</span>
+            <h2>Connected Smart Home Package</h2>
+            <p>Compatible locks, thermostats, garage controls and security devices managed through an app.</p>
+            <a class="button button-primary" href="contact.html?subject=Smart Home">Ask About Automation</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container two-column">
+        <div>
+          <h2>Example residential project</h2>
+          <p>A homeowner replaces an older alarm panel, reuses compatible door sensors and adds app control, a video doorbell and two outdoor cameras.</p>
+        </div>
+        <div>
+          <h2>Example business project</h2>
+          <p>A small business installs camera recording, monitored intrusion protection and access control on the main employee entrance.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <script src="js/theme.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/filter.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
