@@ -2,47 +2,49 @@
   {
     "id": 1,
     "title": "Adding Light and Dark Mode",
-    "date": "1",
+    "date": "2026-07-28",
     "category": "Part 1 - Theme Switcher",
-    "summary": ""
+    "summary": "I added a button that changes the website between light mode and dark mode.",
+    "content": "This feature allows the user to switch the website between a light theme and a dark theme. I used JavaScript to change the theme on the page. I also used localStorage so the website remembers the selected theme after the page is refreshed or when the user opens another page. I learned how JavaScript can change CSS settings and save information in the browser."
   },
   {
     "id": 2,
     "title": "Loading the Header and Footer",
-    "date": "12",
+    "date": "2026-07-29",
     "category": "Part 2 - Components",
     "summary": "I used the same header and footer files on all six pages.",
-    "content": ""
+    "content": "I created separate header.html and footer.html files so I did not have to repeat the same code on every page. JavaScript uses fetch to load the header and footer into each page. This makes the website easier to update because I only need to change the header or footer in one place. I learned how shared components can keep a website organized."
   },
   {
     "id": 3,
     "title": "Loading Blog Posts from JSON",
-    "date": "123",
+    "date": "2026-07-30",
     "category": "Part 3 - Dynamic Blog",
-    "summary": "The News page gets its posts from the posts.json file.",
-    "content": ""
+    "summary": "The News page loads its posts from the posts.json file.",
+    "content": "I stored the blog post information inside a JSON file. JavaScript loads the JSON file and creates a card for each post. The posts are sorted from newest to oldest, and the newest post receives a Latest Post badge. I also formatted the dates so they are easier to read. I learned how JSON can store information separately from HTML."
   },
   {
     "id": 4,
     "title": "Validating the Contact Form",
-    "date": "1234",
-    "category": "Part 4 - Validation",
-    "summary": "I checked the contact form before showing a success message.",
-    "content": ""
+    "date": "2026-07-31",
+    "category": "Part 4 - Form Validation",
+    "summary": "I added checks to the contact form before showing a success message.",
+    "content": "The contact form checks that the user enters a name, a valid email address, and a message with at least 20 characters. If a field is not correct, an error message appears below it. The error disappears when the user starts correcting the information. When all fields are valid, the website displays a success message. I learned how JavaScript can check form information before it is submitted."
   },
   {
     "id": 5,
     "title": "Adding a Live Search Filter",
-    "date": "12345",
+    "date": "2026-08-01",
     "category": "Part 5 - Live Filter",
     "summary": "I added search boxes to the Products page and the News page.",
-    "content": ""
+    "content": "The live filter allows users to search for products or blog posts without reloading the page. JavaScript compares the search text with the title, category, and description of each card. Cards that do not match are hidden. If nothing matches the search, the website displays a No Results Found message. I learned how to use JavaScript to show and hide page elements."
   },
   {
     "id": 6,
     "title": "Finishing the Company Website",
-    "date": "123456",
+    "date": "2026-08-02",
     "category": "Project Reflection",
     "summary": "I completed and tested the six-page Volk Security Systems website.",
-    "content": ""
+    "content": "I completed the Home, About, Services, Products, News, and Contact pages. I tested the navigation, theme button, blog posts, search filters, and contact form. I also checked that the website works on smaller screens. This project helped me understand how HTML, CSS, JavaScript, and JSON work together to create a complete website."
+  }
 ]
