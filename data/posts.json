@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "title": "Adding Light and Dark Mode",
+    "date": "1",
+    "category": "Part 1 - Theme Switcher",
+    "summary": ""
+  },
+  {
+    "id": 2,
+    "title": "Loading the Header and Footer",
+    "date": "12",
+    "category": "Part 2 - Components",
+    "summary": "I used the same header and footer files on all six pages.",
+    "content": ""
+  },
+  {
+    "id": 3,
+    "title": "Loading Blog Posts from JSON",
+    "date": "123",
+    "category": "Part 3 - Dynamic Blog",
+    "summary": "The News page gets its posts from the posts.json file.",
+    "content": ""
+  },
+  {
+    "id": 4,
+    "title": "Validating the Contact Form",
+    "date": "1234",
+    "category": "Part 4 - Validation",
+    "summary": "I checked the contact form before showing a success message.",
+    "content": ""
+  },
+  {
+    "id": 5,
+    "title": "Adding a Live Search Filter",
+    "date": "12345",
+    "category": "Part 5 - Live Filter",
+    "summary": "I added search boxes to the Products page and the News page.",
+    "content": ""
+  },
+  {
+    "id": 6,
+    "title": "Finishing the Company Website",
+    "date": "123456",
+    "category": "Project Reflection",
+    "summary": "I completed and tested the six-page Volk Security Systems website.",
+    "content": ""
+]
