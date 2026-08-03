@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Smart home integration illustration">
+  <rect width="800" height="450" fill="#edf4f8"/>
+  <path d="m125 240 275-175 275 175v150H125Z" fill="#fff" stroke="#c8d8e7" stroke-width="8"/>
+  <path d="m90 251 310-197 310 197" fill="none" stroke="#071a33" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="316" y="243" width="168" height="147" rx="12" fill="#123a69"/>
+  <circle cx="400" cy="285" r="18" fill="#2bb8c6"/>
+  <path d="M400 115v44M330 136l20 36M470 136l-20 36M288 190l38 22M512 190l-38 22" stroke="#e63c4b" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="210" cy="305" r="38" fill="#2bb8c6" opacity=".2"/>
+  <path d="M198 305h24M210 293v24" stroke="#123a69" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="590" cy="305" r="38" fill="#e63c4b" opacity=".15"/>
+  <path d="m574 306 11 11 22-26" fill="none" stroke="#e63c4b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

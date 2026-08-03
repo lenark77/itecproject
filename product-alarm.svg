@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Smart alarm panel illustration">
+  <rect width="800" height="450" fill="#eaf2f8"/>
+  <circle cx="655" cy="86" r="110" fill="#2bb8c6" opacity=".12"/>
+  <rect x="215" y="72" width="370" height="306" rx="30" fill="#fff" stroke="#c8d8e7" stroke-width="8"/>
+  <rect x="248" y="105" width="304" height="210" rx="18" fill="#071a33"/>
+  <path d="M400 143c-65 0-118 53-118 118 0 86 118 157 118 157s118-71 118-157c0-65-53-118-118-118Z" fill="#e63c4b" transform="scale(.55) translate(327 205)"/>
+  <path d="m353 215 34 34 63-74" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="400" cy="344" r="13" fill="#2bb8c6"/>
+</svg>

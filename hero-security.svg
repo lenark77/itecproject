@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" role="img" aria-labelledby="title desc">
+  <title id="title">Integrated smart security illustration</title>
+  <desc id="desc">A home connected to alarm, camera, access control and mobile monitoring devices.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ecf5fb"/>
+      <stop offset="1" stop-color="#d9e8f4"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#123a69"/>
+      <stop offset="1" stop-color="#071a33"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#071a33" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="900" height="680" rx="42" fill="url(#bg)"/>
+  <circle cx="725" cy="120" r="78" fill="#2bb8c6" opacity=".14"/>
+  <circle cx="165" cy="555" r="120" fill="#e63c4b" opacity=".10"/>
+  <g filter="url(#shadow)">
+    <path d="m183 340 245-190 245 190v218H183Z" fill="#fff"/>
+    <path d="m154 351 274-212 274 212" fill="none" stroke="#071a33" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="240" y="350" width="145" height="208" rx="8" fill="#123a69"/>
+    <rect x="470" y="336" width="152" height="120" rx="12" fill="#d7ebf3" stroke="#123a69" stroke-width="8"/>
+    <path d="M546 336v120M470 396h152" stroke="#123a69" stroke-width="8"/>
+    <circle cx="355" cy="452" r="10" fill="#2bb8c6"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="616" y="202" width="184" height="330" rx="30" fill="#071a33"/>
+    <rect x="632" y="235" width="152" height="250" rx="18" fill="url(#screen)" stroke="#31567f" stroke-width="2"/>
+    <circle cx="708" cy="507" r="11" fill="#516984"/>
+    <path d="M708 281c-43 0-78 35-78 78 0 57 78 104 78 104s78-47 78-104c0-43-35-78-78-78Z" fill="#e63c4b" opacity=".95"/>
+    <path d="m674 358 23 23 45-52" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="90" y="160" width="190" height="132" rx="22" fill="#fff"/>
+    <rect x="113" y="184" width="144" height="82" rx="12" fill="#071a33"/>
+    <circle cx="185" cy="225" r="27" fill="#2bb8c6"/>
+    <circle cx="185" cy="225" r="12" fill="#071a33"/>
+    <path d="M185 177v-22M133 225h-22M259 225h22" stroke="#e63c4b" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g fill="none" stroke="#2bb8c6" stroke-width="6" stroke-linecap="round" stroke-dasharray="14 14" opacity=".75">
+    <path d="M280 226c85-55 200-63 336 31"/>
+    <path d="M621 473c-58 42-126 62-202 61"/>
+  </g>
+  <g transform="translate(350 236)">
+    <path d="M78 0 145 26v51c0 44-26 76-67 94C37 153 11 121 11 77V26L78 0Z" fill="#123a69" filter="url(#shadow)"/>
+    <path d="m47 76 21 21 42-49" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

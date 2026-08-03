@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Security camera illustration">
+  <rect width="800" height="450" fill="#eef4f9"/>
+  <circle cx="140" cy="92" r="88" fill="#e63c4b" opacity=".09"/>
+  <path d="M190 160h350c49 0 89 40 89 89s-40 89-89 89H190Z" fill="#fff" stroke="#c8d8e7" stroke-width="8"/>
+  <circle cx="541" cy="249" r="62" fill="#123a69"/>
+  <circle cx="541" cy="249" r="33" fill="#2bb8c6"/>
+  <circle cx="541" cy="249" r="14" fill="#071a33"/>
+  <path d="M190 338h70l-30 54h-85Z" fill="#071a33"/>
+  <path d="M628 249h86" stroke="#e63c4b" stroke-width="12" stroke-linecap="round"/>
+  <path d="M664 206c30 12 50 28 68 50M664 292c30-12 50-28 68-50" fill="none" stroke="#2bb8c6" stroke-width="8" stroke-linecap="round"/>
+</svg>
