@@ -4,47 +4,47 @@
     "title": "Adding Light and Dark Mode",
     "date": "2026-07-28",
     "category": "Part 1 - Theme Switcher",
-    "summary": "I added a button that changes the website between light mode and dark mode.",
-    "content": "This feature allows the user to switch the website between a light theme and a dark theme. I used JavaScript to change the theme on the page. I also used localStorage so the website remembers the selected theme after the page is refreshed or when the user opens another page. I learned how JavaScript can change CSS settings and save information in the browser."
+    "summary": "I added a button that lets users change the website between light mode and dark mode.",
+    "content": "I wanted the website to have both a light and dark theme because many websites now give users this option. I used JavaScript to change the data-theme attribute on the page and used localStorage to remember the selected theme. The main challenge was that the theme button was inside the header, and the header was loaded later using JavaScript. I had to make sure the theme setup ran after the header was added to the page. This helped me understand how JavaScript, CSS, and localStorage can work together."
   },
   {
     "id": 2,
     "title": "Loading the Header and Footer",
     "date": "2026-07-29",
     "category": "Part 2 - Components",
-    "summary": "I used the same header and footer files on all six pages.",
-    "content": "I created separate header.html and footer.html files so I did not have to repeat the same code on every page. JavaScript uses fetch to load the header and footer into each page. This makes the website easier to update because I only need to change the header or footer in one place. I learned how shared components can keep a website organized."
+    "summary": "I created one shared header and footer that could be used on every page.",
+    "content": "At first, I had the same navigation and footer code on each page. I realized that making a change would mean editing every page separately. I created header.html and footer.html files and used fetch in JavaScript to load them. One challenge was that the components would not load when I opened the HTML file directly from my computer. I learned that the website needed to run through a local server or GitHub Pages. This made the project easier to organize and update."
   },
   {
     "id": 3,
     "title": "Loading Blog Posts from JSON",
     "date": "2026-07-30",
     "category": "Part 3 - Dynamic Blog",
-    "summary": "The News page loads its posts from the posts.json file.",
-    "content": "I stored the blog post information inside a JSON file. JavaScript loads the JSON file and creates a card for each post. The posts are sorted from newest to oldest, and the newest post receives a Latest Post badge. I also formatted the dates so they are easier to read. I learned how JSON can store information separately from HTML."
+    "summary": "I created a News page that loads all of its posts from a JSON file.",
+    "content": "Instead of writing every blog post directly inside news.html, I stored the information in posts.json. JavaScript reads the file, sorts the posts by date, and creates a card for each one. I also added a Latest Post badge and a Read More button. I had trouble when the posts did not appear on my published website because some of the dates and content in the JSON file were incomplete. I corrected the JSON format and tested the file directly in the browser. This taught me that even a small mistake in JSON can stop the whole section from loading."
   },
   {
     "id": 4,
     "title": "Validating the Contact Form",
     "date": "2026-07-31",
     "category": "Part 4 - Form Validation",
-    "summary": "I added checks to the contact form before showing a success message.",
-    "content": "The contact form checks that the user enters a name, a valid email address, and a message with at least 20 characters. If a field is not correct, an error message appears below it. The error disappears when the user starts correcting the information. When all fields are valid, the website displays a success message. I learned how JavaScript can check form information before it is submitted."
+    "summary": "I added validation to make sure users complete the contact form correctly.",
+    "content": "I used JavaScript to check the form before showing the success message. The form checks that the name is entered, the email format is valid, and the message has at least 20 characters. The most difficult part was making each error message appear under the correct field and disappear when the user started correcting the information. I tested the form using empty fields, an incorrect email, and a short message. This helped me understand how to prevent a form from submitting until the information is valid."
   },
   {
     "id": 5,
     "title": "Adding a Live Search Filter",
     "date": "2026-08-01",
     "category": "Part 5 - Live Filter",
-    "summary": "I added search boxes to the Products page and the News page.",
-    "content": "The live filter allows users to search for products or blog posts without reloading the page. JavaScript compares the search text with the title, category, and description of each card. Cards that do not match are hidden. If nothing matches the search, the website displays a No Results Found message. I learned how to use JavaScript to show and hide page elements."
+    "summary": "I added live search boxes to help users find products and news posts.",
+    "content": "I added a search box to the Products page and another one to the News page. The JavaScript compares what the user types with the title, category, and description of each card. Cards that do not match are hidden, and a No Results Found message appears when nothing matches. The News page was more difficult because its cards are created after the JSON file loads. I had to make sure the filter started after the blog cards were added to the page. I learned more about selecting elements and changing what is displayed without reloading the page."
   },
   {
     "id": 6,
     "title": "Finishing the Company Website",
     "date": "2026-08-02",
     "category": "Project Reflection",
-    "summary": "I completed and tested the six-page Volk Security Systems website.",
+    "summary": "I completed and tested the Volk Security Systems website and connected the project to my previous work experience.",
     "content": "I chose to create a security company website because I work at Window Guard and I previously helped create their website. That experience made this project more interesting to me because I was already familiar with security products and the type of information customers look for. For this project, I completed the Home, About, Services, Products, News, and Contact pages. I tested the navigation, theme button, blog posts, search filters, and contact form. One challenge was making sure all of the files were placed in the correct folders and that the links worked after publishing the website on GitHub Pages. I also checked that the website worked on smaller screens. This project helped me improve my understanding of how HTML, CSS, JavaScript, and JSON work together to create a complete website."
   }
 ]
