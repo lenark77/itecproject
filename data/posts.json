@@ -45,6 +45,6 @@
     "date": "2026-08-02",
     "category": "Project Reflection",
     "summary": "I completed and tested the six-page Volk Security Systems website.",
-    "content": "I completed the Home, About, Services, Products, News, and Contact pages. I tested the navigation, theme button, blog posts, search filters, and contact form. I also checked that the website works on smaller screens. This project helped me understand how HTML, CSS, JavaScript, and JSON work together to create a complete website."
+    "content": "I chose to create a security company website because I work at Window Guard and I previously helped create their website. That experience made this project more interesting to me because I was already familiar with security products and the type of information customers look for. For this project, I completed the Home, About, Services, Products, News, and Contact pages. I tested the navigation, theme button, blog posts, search filters, and contact form. One challenge was making sure all of the files were placed in the correct folders and that the links worked after publishing the website on GitHub Pages. I also checked that the website worked on smaller screens. This project helped me improve my understanding of how HTML, CSS, JavaScript, and JSON work together to create a complete website."
   }
 ]
