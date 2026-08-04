@@ -1,6 +1,6 @@
 # Volk Security Systems Website
 
-This project was created for ITEC 3020.
+ITEC 3020 Project
 
 I chose Option B, which is a company landing page. The website is based on a home security company called Volk Security Systems.
 
